@@ -1,0 +1,85 @@
+.Sidebar{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #373583;
+        
+}
+
+.logo{
+    padding: 25px;
+    color: white;
+    font-size: 1.7rem;
+}
+
+.sideBtn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.sideBtn ul li{
+    list-style: none;
+}
+
+.sideImg {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.sideImg img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.sideImg img:hover{
+    cursor: pointer;
+}
+
+.sideOptions{
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sideOption{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.sideOption img{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+.btn{
+    color: white;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+}
+
+.btn:hover{
+    
+    cursor: pointer;
+}
+
+.white{
+    
+    filter: brightness(0) invert(1);
+}
+
+

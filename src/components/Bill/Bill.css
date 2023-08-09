@@ -1,0 +1,94 @@
+.bill{
+    width: 130%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.amount{
+    border: 0.5px solid #373583;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.printBill{
+    display: flex;
+    justify-content: space-between;
+}
+
+.printBill span{
+    font-size: 1.5rem ;
+    font-weight: bold;
+}
+
+.printBill button{
+    padding: 5px 15px;
+    background-color: #373583;
+    color: white;
+    border: none;
+    border-radius: 20px;
+
+}
+
+.patientInfo{
+    
+
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.questions{
+    display: flex;
+    margin: 5px 0px;
+    justify-content: space-between;
+    
+
+}
+
+
+.answers{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+
+    
+}
+
+.services div{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+    
+}
+
+.finalAmount{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.finalAmount div{
+    display: flex;
+    justify-content: space-between;
+    margin: 3px 0px;
+}
+
+.pr{
+    padding-right: 10px;
+}
+
+.pr-2{
+    padding-right: 42px;
+}
